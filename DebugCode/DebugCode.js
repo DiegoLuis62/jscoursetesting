@@ -1,9 +1,9 @@
 function performOperation() {
     
-    const num1 = document.getElementById("input1").value;
-    const num2 = document.getElementById("input2").value;
+    const num1 = parseInt(document.getElementById("input1").value);
+    const num2 = parseInt(document.getElementById("input2").value);
 
-    if (!isNaN(num1) && !sNaN(num2)) {
+    if (!isNaN(num1) && !isNaN(num2)) {
         const result = multiply(num1, num2);
         displayResult(result);
 
@@ -17,7 +17,7 @@ function performOperation() {
 function multiply(n1, n2) {
 
     debugger;
-    return a * b;
+    return n1 * n2;
 
 }
 
